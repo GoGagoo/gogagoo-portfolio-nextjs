@@ -84,7 +84,9 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
+      
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div class="rounded border-md z-0 w-20 h-20 bg-secondary-500 to-transparent blur-md rotate-6"></div>
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -101,6 +103,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
+      <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 right-2 translate-x-1/2 translate-y-4/8 rounded-full h-40 w-40 z-0 blur-lg'></div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
