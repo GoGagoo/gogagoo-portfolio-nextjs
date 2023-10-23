@@ -6,7 +6,10 @@ import LinkedInIcon from '../../../public/linkedin-icon.svg'
 
 const ContactSection = () => {
 	return (
-		<section className='relative grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'>
+		<section
+			id='contact'
+			className='relative grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'
+		>
 			<div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 -left-4 -translate-x-1/2 -translate-y-1/2 rounded-full h-80 w-80 z-0 blur-lg'></div>
 			<div className='z-10'>
 				<h5 className='text-xl font-bold text-white my-2'>
