@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
-import Link from "next/link";
+"use client"
+import Image from "next/image"
+import Link from "next/link"
+
+import { TypeAnimation } from "react-type-animation"
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
@@ -75,7 +75,7 @@ const HeroSection = () => {
         </motion.div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default HeroSection

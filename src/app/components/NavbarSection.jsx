@@ -1,8 +1,10 @@
 "use client"
-import { useState } from 'react'
 import Link from 'next/link'
-import NavLink from './NavLink'
+import { useState } from 'react'
+
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+
+import NavLink from './NavLink'
 import MenuOverlay from './MenuOverlay'
 
 const navLinks = [

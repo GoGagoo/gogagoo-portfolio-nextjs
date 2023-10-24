@@ -1,8 +1,10 @@
-"use client";
-import React, { useState, useRef } from "react";
-import ProjectCard from "./ProjectCard";
-import ProjectTag from "./ProjectTag";
-import { motion, useInView } from "framer-motion";
+"use client"
+import { useState, useRef } from "react"
+
+import { motion, useInView } from "framer-motion"
+
+import ProjectCard from "./ProjectCard"
+import ProjectTag from "./ProjectTag"
 
 const projectsData = [
   {
@@ -16,7 +18,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Photography Portfolio Website",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
@@ -59,25 +61,25 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-];
+]
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const [tag, setTag] = useState("All")
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true })
 
   const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
+    setTag(newTag)
+  }
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
-  );
+  )
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
-  };
+  }
 
   return (
     <section id="projects">
@@ -125,7 +127,7 @@ const ProjectsSection = () => {
         ))}
       </ul>
     </section>
-  );
-};
+  )
+}
 
 export default ProjectsSection
