@@ -55,7 +55,7 @@ const AboutSection = () => {
 				<div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
 					<h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
 					<p className='text-base lg:text-lg'>
-						Hi, I&apos;m an beginner Front-end developer building web
+						I&apos;m an beginner Front-end developer building web
 						applications. My goal is to improve user experience and I am
 						constantly improving my skills. I have experience working with
 						JavaScript, React.js, Typescript, MongoDB, HTML, CSS, and Git. I am
