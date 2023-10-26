@@ -88,7 +88,7 @@ const ProjectsSection = () => {
       </h2>
       
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-      <div class="rounded border-md z-0 w-20 h-20 bg-secondary-500 to-transparent blur-md rotate-6"></div>
+      <div className="rounded border-md z-0 w-20 h-20 bg-secondary-500 to-transparent blur-md rotate-6"></div>
         <ProjectTag
           onClick={handleTagChange}
           name="All"

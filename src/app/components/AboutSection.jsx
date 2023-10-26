@@ -44,10 +44,10 @@ const AboutSection = () => {
 
 	return (
 		<section className='text-white sm:' id='about'>
-			<div class='w-10 h-10 z-0 border-t-[50px] border-t-transparent border-r-[100px] border-r-primary-500 border-b-[50px] border-b-transparent to-transparent blur-lg top-3/4 right-2 translate-x-1/2 translate-y-4/8'></div>
+			<div className='w-10 h-10 z-0 border-t-[50px] border-t-transparent border-r-[100px] border-r-primary-500 border-b-[50px] border-b-transparent to-transparent blur-lg top-3/4 right-2 translate-x-1/2 translate-y-4/8'></div>
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 				<Image
-					src='/images/about-image.jpg'
+					src='/images/about-image.png'
 					width={500}
 					height={500}
 					alt='about'
