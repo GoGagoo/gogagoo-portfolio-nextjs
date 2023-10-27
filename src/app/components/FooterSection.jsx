@@ -1,8 +1,8 @@
 const FooterSection = () => {
 	return (
 		<footer className='footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent'>
-			<div className='container p-12 flex justify-between'>
-				<span>LOGO</span>
+			<div className='container items-center p-8 flex justify-between'>
+				<span className='text-7xl'>G⅁</span>
 				<p className='text-slate-600'>® All Right Reserved</p>
 			</div>
 		</footer>

@@ -3,6 +3,9 @@ import Link from 'next/link'
 
 import GitHubIcon from '../../../public/github-icon.svg'
 import LinkedInIcon from '../../../public/linkedin-icon.svg'
+import TelegramIcon from '../../../public/telegram-icon.svg'
+import InstagramIcon from '../../../public/instagram-icon.svg'
+import EmailIcon from '../../../public/email-icon.svg'
 
 const ContactSection = () => {
 	return (
@@ -22,7 +25,7 @@ const ContactSection = () => {
 					to contact me. If you have a question or just want to say hi, I will
 					do my best to answer you!
 				</p>
-				<div className='socials flex flex-row justify-center items-center gap-2'>
+				<div className='socials flex flex-row justify-around items-center gap-2'>
 					<Link href='https://github.com/GoGagoo' target='_blank'>
 						<Image src={GitHubIcon} alt='GitHub Icon' />
 					</Link>
@@ -31,6 +34,24 @@ const ContactSection = () => {
 						target='_blank'
 					>
 						<Image src={LinkedInIcon} alt='LinkedIn Icon' />
+					</Link>
+					<Link
+						href='https://t.me/gago_json'
+						target='_blank'
+					>
+						<Image src={TelegramIcon} alt='Telegram Icon' />
+					</Link>
+					<Link
+						href='https://www.linkedin.com/in/gagikantonyan/'
+						target='_blank'
+					>
+						<Image src={InstagramIcon} alt='Instagram Icon' />
+					</Link>
+					<Link
+						href='mailto:gagika57gmail@.&body=привет'
+						target='_blank'
+					>
+						<Image src={EmailIcon} alt='Instagram Icon' />
 					</Link>
 				</div>
 			</div>
