@@ -26,30 +26,38 @@ const ContactSection = () => {
 					do my best to answer you!
 				</p>
 				<div className='socials flex flex-row justify-around items-center gap-2'>
-					<Link href='https://github.com/GoGagoo' target='_blank'>
+					<Link 
+					href='https://github.com/GoGagoo' 
+					target='_blank'
+					className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
+					>
 						<Image src={GitHubIcon} alt='GitHub Icon' />
 					</Link>
 					<Link
 						href='https://www.linkedin.com/in/gagikantonyan/'
 						target='_blank'
+					 	className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
 					>
 						<Image src={LinkedInIcon} alt='LinkedIn Icon' />
 					</Link>
 					<Link
 						href='https://t.me/gago_json'
 						target='_blank'
+						className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
 					>
 						<Image src={TelegramIcon} alt='Telegram Icon' />
 					</Link>
 					<Link
 						href='https://www.linkedin.com/in/gagikantonyan/'
 						target='_blank'
+						className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
 					>
 						<Image src={InstagramIcon} alt='Instagram Icon' />
 					</Link>
 					<Link
 						href='mailto:gagika57gmail@.&body=привет'
 						target='_blank'
+						className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
 					>
 						<Image src={EmailIcon} alt='Instagram Icon' />
 					</Link>
