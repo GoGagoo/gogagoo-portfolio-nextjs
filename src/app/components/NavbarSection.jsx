@@ -26,11 +26,11 @@ const NavbarSection  = () => {
 	const [navBarOpen, setNavBarOpen] = useState(false)
 
 	return (
-		<nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212]/30 backdrop-blur-lg">
+		<nav className="fixed mx-auto top-0 left-0 right-0 z-10 backdrop-blur-lg">
 			<div className="flex container flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-[#ADB7BE] hover:text-white font-semibold"
         >
           G⅁
         </Link>
