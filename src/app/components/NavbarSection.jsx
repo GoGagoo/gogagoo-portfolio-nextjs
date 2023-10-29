@@ -30,7 +30,7 @@ const NavbarSection  = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-[#ADB7BE] hover:text-white font-semibold"
+          className="text-2xl md:text-5xl text-[#ADB7BE] hover:text-white hover:-rotate-180 transition duration-1000 font-semibold"
         >
           G⅁
         </Link>
