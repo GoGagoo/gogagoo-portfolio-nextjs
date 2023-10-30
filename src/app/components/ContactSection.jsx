@@ -48,7 +48,7 @@ const ContactSection = () => {
 						<Image src={TelegramIcon} alt='Telegram Icon' />
 					</Link>
 					<Link
-						href='https://www.linkedin.com/in/gagikantonyan/'
+						href='https://www.instagram.com/gago_chad/'
 						target='_blank'
 						className="scale-100 rounded-2xl px-2 py-1 text-neutral-50 transition-transform duration-500 hover:scale-125"
 					>
