@@ -9,57 +9,39 @@ import ProjectTag from "./ProjectTag"
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Pizza Mizza App",
+    description: "Not hard pizza delivery website with auth and shopping cart",
+    image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/GoGagoo/pizza-mizza-app",
+    previewUrl: "https://pizza-mizza-app.vercel.app/",
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Short URL 'HTTP I Tochka'",
+    description: "Simple website allows users to shorten long links, making them more compact and easier to share and use. (Working with connected server-side)",
+    image: "/images/projects/2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/GoGagoo/course-project-mern-short-url",
+    previewUrl: "https://mern-short-url.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "Prompt And Share",
+    description: "Website about creating customizable prompts for ChatGPT in various fields with OAuth2",
+    image: "/images/projects/3.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/GoGagoo/prompt-and-share-nextjs",
+    previewUrl: "https://prompt-and-share-nextjs.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "IT Chad Web Blog",
+    description: "The website provides a blog with an authorization feature where users can publish their posts and interact through comments.",
+    image: "/images/projects/4.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/GoGagoo/it-chad_mern_diplom_project",
+    previewUrl: "https://it-chad.vercel.app/",
   },
 ]
 
@@ -98,11 +80,11 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
-        />
+        /> */}
       </div>
       <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 right-20 translate-x-1/2 translate-y-4/8 rounded-full h-40 w-40 z-0 blur-lg'></div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
