@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 3,
     title: "Prompt And Share",
-    description: "Website about creating customizable prompts for ChatGPT in various fields with OAuth2",
+    description: "Website about creating customizable prompts for ChatGPT in various fields with OAuth2 (Working with connected server-side)",
     image: "/images/projects/3.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/GoGagoo/prompt-and-share-nextjs",
