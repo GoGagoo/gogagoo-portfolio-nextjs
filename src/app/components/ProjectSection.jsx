@@ -87,7 +87,6 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         /> */}
       </div>
-      <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 right-20 translate-x-1/2 translate-y-4/8 rounded-full h-40 w-40 z-0 blur-lg'></div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li

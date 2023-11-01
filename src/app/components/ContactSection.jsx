@@ -13,7 +13,6 @@ const ContactSection = () => {
 			id='contact'
 			className='relative grid my-12 md:my-12 justify-center items-center py-24 gap-4'
 		>
-			<div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 right-2 -translate-x-1/2 translate-y-1/2 rounded-full h-10 w-10 z-0 blur-lg'></div>
 			<div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-500 to-transparent absolute top-3/4 -left-4 -translate-x-1/2 -translate-y-1/2 rounded-full h-80 w-80 z-0 blur-lg'></div>
 			<div className='z-10'>
 				<h2 className='text-center text-4xl font-bold text-white mt-4 mb-4 md:mb-12'>
