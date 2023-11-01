@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import GitHubIcon from '../../../public/github-icon.svg'
-import LinkedInIcon from '../../../public/linkedin-icon.svg'
-import TelegramIcon from '../../../public/telegram-icon.svg'
-import InstagramIcon from '../../../public/instagram-icon.svg'
-import EmailIcon from '../../../public/email-icon.svg'
+import GitHubIcon from '../../../public/icons/github-icon.svg'
+import LinkedInIcon from '../../../public/icons/linkedin-icon.svg'
+import TelegramIcon from '../../../public/icons/telegram-icon.svg'
+import InstagramIcon from '../../../public/icons/instagram-icon.svg'
+import EmailIcon from '../../../public/icons/email-icon.svg'
 
 const ContactSection = () => {
 	return (
