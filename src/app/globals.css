@@ -24,25 +24,33 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  
 }
 
-.scrollable {
-  overflow: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #000000 #ffffff;
+/* global.css или ваш стиль CSS */
+
+/* Скрыть стандартный scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #121212;
 }
 
-/* Стилизация полосы прокрутки */
-.scrollable::-webkit-scrollbar {
-  width: 10px;
+/* Оформление scrollbar */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff9900, #ff6600); /* Градиентный фон */
+  border-radius: 5px; /* Скругленные углы */
+  margin-right: 10px; /* Отступ справа */
+  transition: background 0.3s; /* Анимация изменения фона */
 }
 
-.scrollable::-webkit-scrollbar-track {
-  background: linear-gradient(to right, #616161, #9bc5c3);
+/* Оставить отступ справа */
+::-webkit-scrollbar-thumb {
+  margin-right: 10px; /* Отступ справа */
 }
 
-.scrollable::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #F9D423 , #FF4E50);
-  border-radius: 20px;
-}
+/* Анимация появления и исчезания scrollbar при наведении */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff6600, #ff9900); /* Новый градиентный фон */
+  margin-right: 0; /* Убрать отступ справа при наведении */
+  transition: background 0.3s, margin-right 0.3s; /* Анимация изменения фона и отступа при наведении */
+} 
+
