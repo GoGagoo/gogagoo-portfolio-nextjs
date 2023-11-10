@@ -14,9 +14,9 @@
 ## Справочник по цвету
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#F9C815](https://via.placeholder.com/10/F9C815?text=+) #F9C815 |
-| Secondary Color | ![#00b48a](https://via.placeholder.com/10/EA5D0C?text=+) #EA5D0C |
-| Background Color | ![#121212](https://via.placeholder.com/10/121212?text=+) ##121212 |
+| Основной цвет | ![#F9C815](https://via.placeholder.com/10/F9C815?text=+) #F9C815 |
+| Вторичный цвет | ![#00b48a](https://via.placeholder.com/10/EA5D0C?text=+) #EA5D0C |
+| Цвет заднего фона | ![#121212](https://via.placeholder.com/10/121212?text=+) ##121212 |
 
 ## Стек технологий
 
