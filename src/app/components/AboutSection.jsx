@@ -47,7 +47,7 @@ const AboutSection = () => {
 			<div className='w-10 h-10 z-0 border-t-[50px] border-t-transparent border-r-[100px] border-r-primary-500 border-b-[50px] border-b-transparent to-transparent blur-lg top-3/4 right-2 translate-x-1/2 translate-y-4/8'></div>
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 				<Image
-					src='/images/about-image111.jpg'
+					src='/images/about-image.jpg'
 					className="bg-[linear-gradient(135deg,transparent_25%,rgba(68,68,68,.2)_50%,transparent_75%,transparent_100%)] bg-zinc-950 relative max-w-md overflow-hidden rounded-xl border border-slate-900 bg-[length:250%_250%,100%_100%] bg-[position:-100%_100%,0_0] bg-no-repeat px-6 py-6 shadow-2xl transition-[background-position_0s_ease] hover:bg-[position:200%_100%,0_0] hover:duration-[1500ms] w-full"
 					width={500}
 					height={500}
