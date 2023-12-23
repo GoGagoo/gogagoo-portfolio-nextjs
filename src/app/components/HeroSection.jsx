@@ -37,7 +37,7 @@ const HeroSection = () => {
 						/>
 					</h1>
 					<p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-					I think you&apos;ve come to the right place 🙂🙃
+					I think you&apos;ve come to the right place
 					</p>
 					<div>
 						<Link
@@ -65,12 +65,12 @@ const HeroSection = () => {
 				>
 					<div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
 						<Image
-							src='/images/hero-image.png'
+							src='/images/hero-imag111.png'
 							alt='hero image'
 							priority={true}
-							className='absolute transform -translate-x-1/2 -translate-y-2/4 top-1/2 left-1/2'
-							width={400}
-							height={400}
+							className='absolute transform sm:w-1/2 lg:w-1/2 md:w-1/2 -translate-x-1/2 -translate-y-2/4 top-1/2 left-2/4'
+							width={220}
+							height={150}
 						/>
 					</div>
 				</motion.div>
