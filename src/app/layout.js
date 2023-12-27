@@ -12,7 +12,7 @@ export const metadata = {
     url: 'https://gogagoo-portfolio.vercel.app',
     images: [
       {
-        url: 'https://i.postimg.cc/Y25fhq7d/cover.jpg'
+        url: 'https://i.postimg.cc/X7vr0Q53/67shots-so.jpg'
       }
     ]
   }
